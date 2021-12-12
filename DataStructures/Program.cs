@@ -8,14 +8,15 @@ namespace DataStructures
         {
             Console.WriteLine("Welcome to Linked List operations");
             LinkedList List = new LinkedList();
-            //List.Add(56);
-            //List.Add(30);
-            //List.Add(70);
+            List.Add(56);
+            List.Add(30);
+            List.Add(70);
 
-            List.AddReverse(70);
-            List.AddReverse(30);
-            List.AddReverse(56);
+            //List.AddReverse(70);
+            //List.AddReverse(30);
+            //List.AddReverse(56);
             List.Display();
+            List.InsertAtParticularPosition(2, 30);
         }
 
     }

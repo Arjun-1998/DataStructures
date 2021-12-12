@@ -6,15 +6,13 @@ namespace DataStructures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Linked List operations");
+            Console.WriteLine("Search Operations !");
             LinkedList List = new LinkedList();
             List.Add(56);
             List.Add(30);
             List.Add(70);
-
-            //List.AddReverse(70);
-            //List.AddReverse(30);
-            //List.AddReverse(56);
+            List.RemoveFirstNode();
+            Console.WriteLine("After removing is : ");
             List.Display();
             List.InsertAtParticularPosition(2, 30);
         }
